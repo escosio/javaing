@@ -43,8 +43,14 @@ public class footballTeam {
   }
 
   public static void main(String[] args) {
-    footballTeam givenTeam = new footballTeam(59.0, 19.0, 3.0, 1.0, 2.0);
-    givenTeam.teamSummary();
+    // Giants
+    System.out.println("Giants:");
+    footballTeam giants = new footballTeam(77.0, 19.0, 3.0, 1.0, 2.0);
+    giants.teamSummary();
+
+    System.out.println("Cowboys:");
+    footballTeam cowboys = new footballTeam(77.0, 30.0, 5.0, 1.0, 3.0);
+    cowboys.teamSummary();
 
   }
 
