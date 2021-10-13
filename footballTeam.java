@@ -37,20 +37,29 @@ public class footballTeam {
     double obp = onBasePercentage();
     double ops = ops();
 
-    System.out.println("Slugging: " + slg);
-    System.out.println("On-base: " + obp);
+    // System.out.println("Slugging: " + slg);
+    // System.out.println("On-base: " + obp);
     System.out.println("OPS: " + ops);
   }
 
   public static void main(String[] args) {
-    // Giants
-    System.out.println("Giants:");
-    footballTeam giants = new footballTeam(77.0, 19.0, 3.0, 1.0, 2.0);
-    giants.teamSummary();
+    // Week 3
+    // params are total plays, first downs, 20+, 40+, TDs
+    System.out.println("Ariey's Rams:");
+    footballTeam duncan = new footballTeam(64.0, 24.0, 3.0, 0.0, 2.0);
+    duncan.teamSummary();
 
-    System.out.println("Cowboys:");
-    footballTeam cowboys = new footballTeam(77.0, 30.0, 5.0, 1.0, 3.0);
-    cowboys.teamSummary();
+    System.out.println("Evan's Tompa Bays:");
+    footballTeam evan = new footballTeam(74.0, 22.0, 7.0, 0.0, 1.0);
+    evan.teamSummary();
+
+    System.out.println("Scott's Chiefs");
+    footballTeam scott = new footballTeam(63.0, 31.0, 3.0, 1.0, 6.0);
+    scott.teamSummary();
+
+    System.out.println("Phil's Raiders");
+    footballTeam phil = new footballTeam(56.0, 13.0,2.0,2.0,2.0);
+    phil.teamSummary();
 
   }
 
