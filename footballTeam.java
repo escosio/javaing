@@ -46,19 +46,19 @@ public class footballTeam {
     // Week 3
     // params are total plays, first downs, 20+, 40+, TDs
     System.out.println("Ariey's Rams:");
-    footballTeam duncan = new footballTeam(64.0, 24.0, 3.0, 0.0, 2.0);
+    footballTeam duncan = new footballTeam(67.0, 24.0, 4.0, 1.0, 3.0);
     duncan.teamSummary();
 
     System.out.println("Evan's Tompa Bays:");
-    footballTeam evan = new footballTeam(74.0, 22.0, 7.0, 0.0, 1.0);
+    footballTeam evan = new footballTeam(71.0, 33.0, 2.0, 0.0, 6.0);
     evan.teamSummary();
 
     System.out.println("Scott's Chiefs");
-    footballTeam scott = new footballTeam(63.0, 31.0, 3.0, 1.0, 6.0);
+    footballTeam scott = new footballTeam(79.0, 29.0, 2.0, 0.0, 2.0);
     scott.teamSummary();
 
-    System.out.println("Phil's Raiders");
-    footballTeam phil = new footballTeam(56.0, 13.0,2.0,2.0,2.0);
+    System.out.println("Phil's Bills");
+    footballTeam phil = new footballTeam(54.0, 20.0, 3.0, 2.0 ,4.0);
     phil.teamSummary();
 
   }
