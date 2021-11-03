@@ -45,20 +45,21 @@ public class footballTeam {
   public static void main(String[] args) {
     // Week 3
     // params are total plays, first downs, 20+, 40+, TDs
+    System.out.println("week 8~");
     System.out.println("Ariey's Rams:");
-    footballTeam duncan = new footballTeam(67.0, 24.0, 4.0, 1.0, 3.0);
+    footballTeam duncan = new footballTeam(66.0, 26.0,2.0,2.0, 5.0);
     duncan.teamSummary();
 
-    System.out.println("Evan's Tompa Bays:");
-    footballTeam evan = new footballTeam(71.0, 33.0, 2.0, 0.0, 6.0);
+    System.out.println("Evan's Bengals:");
+    footballTeam evan = new footballTeam(54.0, 18.0,3.0,2.0, 4.0);
     evan.teamSummary();
 
-    System.out.println("Scott's Chiefs");
-    footballTeam scott = new footballTeam(79.0, 29.0, 2.0, 0.0, 2.0);
+    System.out.println("Scott's Bills");
+    footballTeam scott = new footballTeam(66.0,24.0,3.0,0.0, 3.0);
     scott.teamSummary();
 
-    System.out.println("Phil's Bills");
-    footballTeam phil = new footballTeam(54.0, 20.0, 3.0, 2.0 ,4.0);
+    System.out.println("Phil's Chiefs");
+    footballTeam phil = new footballTeam(77.0, 29.0,1.0,0.0, 2.0);
     phil.teamSummary();
 
   }
